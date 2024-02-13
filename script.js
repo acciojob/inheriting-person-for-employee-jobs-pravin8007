@@ -1,4 +1,4 @@
-// Create a Person Class
+// Person Class
 class Person {
     constructor(name, age) {
         this.name = name;
@@ -10,10 +10,10 @@ class Person {
     }
 }
 
-// Create an Employee Class (inherits from Person)
+// Employee Class (inherits from Person)
 class Employee extends Person {
     constructor(name, age, jobTitle) {
-        super(name, age); // Call the constructor of the parent class (Person)
+        super(name, age);
         this.jobTitle = jobTitle;
     }
 
